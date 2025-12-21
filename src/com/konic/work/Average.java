@@ -10,8 +10,8 @@ public class Average {
 				
 		for (int i =0;i<a.length;i++) {
 			sum = sum + a[i];
-					;
 		}
+		 
 		double average = (double)sum/a.length;
 		
 		System.out.println("Total marks:"+sum);
