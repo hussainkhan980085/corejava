@@ -6,7 +6,7 @@ public class cstudent {
    String name;
    int rollno;
    
-   static String collegename = "IIT Delhi";
+   static String collegename;
    
    cstudent(String name,int rollno){
 	   this.name=name;
