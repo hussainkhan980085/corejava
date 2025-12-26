@@ -1,9 +1,12 @@
 package com.konic.java.arrays;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Studentlist {
 	
 	
-	public static List<String> addstudents(){
+	public static void addstudents(){
 		List <String> students = new ArrayList<>();
 		
 	}
