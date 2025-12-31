@@ -4,7 +4,7 @@ import java.util.*;
 
 
 
-public class addemp {
+public class empdetail {
 	
 	
 	   
@@ -32,14 +32,18 @@ public class addemp {
 	 map.put(e3.getId(),e3);
 	 
 	 return map;
-	 
+	  
 	 }
 	 public static void main(String[] args) {
 		 
-		 addemp add =new addemp();
+		 empdetail add =new empdetail();
 		 add.adddata();
 		 
 		System.out.println("employee data  :"+ add.adddata());
+		
+		///update employee details..
+	
+		//empdetail.map.get(102).setName("hadiya khan");
 		
 	}
 }

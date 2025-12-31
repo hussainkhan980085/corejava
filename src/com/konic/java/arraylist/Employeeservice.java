@@ -38,8 +38,8 @@ public class Employeeservice {
 
 	public static void main(String[] args) {
 		
-		List<employee> emplist = addemployees();
-         System.out.println(List<E>);
+		List<Employee> emplist = addemployees();
+         System.out.println(emplist);
 		
 
 		
