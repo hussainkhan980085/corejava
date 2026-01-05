@@ -1,9 +1,7 @@
 package com.konic.java.arraylist;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
-import jdk.internal.org.jline.terminal.TerminalBuilder.SystemOutput;
 
 public class Employeeservice {
 	
