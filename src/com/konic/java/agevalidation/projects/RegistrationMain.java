@@ -15,7 +15,7 @@ public class RegistrationMain {
 			    
 			 System.out.println("Enter Age: ");
 			   int age = sc.nextInt();
-			    sc.nextLine();
+			    
 			    
 			 System.out.print("Enter Email: ");
 	            String email = sc.nextLine(); 
@@ -26,13 +26,13 @@ public class RegistrationMain {
 		  catch(InvalidAgeException e) {
 			  System.out.println("Enter Age: " + e.getMessage());
 		  
-		  }catch(InvalidEmailException e) {
+		  }catch(InvalidEmailException e) { 
 			  System.out.println( "Enter Email: " + e.getMessage());
 			  
 		  }finally {
 			  System.out.println("Registration process completed");
 			
 		}
-			 
+			System.out.println("Exit"); 
 	}
 }
